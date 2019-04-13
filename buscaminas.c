@@ -3,7 +3,8 @@
 #include <ctype.h>
 #include <stdlib.h>
 #include <time.h>
-
+// 88/100
+// El buscaminas tenía que soportar tamaño variable -10
 void imprimir_tablero(int tablero[][15], int perder);
 void colocar_bombas(int minas[][15], int bum);
 void frases_1(int buscar);
@@ -77,7 +78,7 @@ int main()
                system("cls");
                printf("\nBuscaminas1.0-\n\n");
                imprimir_tablero(buscaminas, gameStatus);
-
+              // -2 mal encoding \P es un caracter escapado
                printf("\t\Perdiste, el juego ha terminado!!");
 
                getch();
