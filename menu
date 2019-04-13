@@ -2,7 +2,16 @@
 #include <stdlib.h>
 #include <conio.h>
 
+// 75/100
 
+/**
+Calcule Índice acumulado
+entrar materia
+Quitar materia (FALTA -10)
+1 solo estudiante
+edit calificación (FALTA -5
+puntos por materia (FALTA -10)
+**/
 
 struct estudiantes{
   char nombre[15];
