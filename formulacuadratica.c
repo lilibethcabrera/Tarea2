@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// 90/100
+// Hubiese sido bueno que utilices funciones -10
 
 float a,b,c,x,r=0,z;
 float raiz1,raiz2,sum,total2,tt;
