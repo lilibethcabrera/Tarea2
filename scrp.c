@@ -2,6 +2,9 @@
 #include <stdlib.h>
 #include <string.h>
 
+// 50/100
+// No cumple con ninguno de los requisitos para la tarea 2 (-50)
+
 void scrape(char contenido[]);
 int EncontrarTag(char contenido[], char tag[], int pos);
 int EncontrarProducto(char contenido[], char valor[], int pos);
