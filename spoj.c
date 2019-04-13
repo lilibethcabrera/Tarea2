@@ -1,5 +1,8 @@
 #include<stdio.h>
 #include<conio.h>
+// 50/100
+// No te anotaste en el lista ni indicas que ejercicio estas haciendo -50
+
 int main()
 {
     char num[2]={-1,-1};
